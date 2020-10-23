@@ -6,6 +6,9 @@ import org.besidescollege.hazelcast.HazelCastCache;
 import org.besidescollege.redis.RedisCache;
 import org.redisson.api.LocalCachedMapOptions;
 
+/**
+ * Cache switch based on initialization paramter
+ */
 public class CacheProviderAdaptor {
 
     String type;

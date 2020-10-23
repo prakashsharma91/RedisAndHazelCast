@@ -22,6 +22,7 @@ public class CacheApplication {
 		ApplicationCache cache = new ApplicationCache(cacheProvider);
 
 		// Cache consumer
+		// Don't worry about which cache technology is used.
 		System.out.println(cache.getAccounts());
 	}
 
